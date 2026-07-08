@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+</head>
+
+<body>
+
+    <h1>Brain Tumor Diagnosis Result</h1>
+
+    <hr>
+
+    <table cellspacing="20">
+        <tr>
+            <td align="center">
+                <h2>Uploaded MRI</h2>
+                <img src="{{ image_path }}" width="300">
+            </td>
+
+            <td align="center">
+                <h2>Grad-CAM</h2>
+                <img src="{{ gradcam_path }}" width="300">
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Prediction</h2>
+    <p><strong>{{ predicted_class }}</strong></p>
+
+    <h2>Confidence</h2>
+    <p><strong>{{ confidence }}%</strong></p>
+
+    <br>
+
+    <a href="/">Analyze Another MRI</a>
+
+</body>
+</html>

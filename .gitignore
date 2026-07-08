@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Flask uploads/results
+static/uploads/*
+static/results/*
+
+# Keep folders
+!static/uploads/.gitkeep
+!static/results/.gitkeep
+
+# Model files (optional)
+# Uncomment if you don't want to upload trained models
+# models/*.keras
+
+# Logs
+*.log
+
+# Trained models
+models/*.keras
