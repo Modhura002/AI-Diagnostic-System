@@ -28,10 +28,6 @@ static/results/*
 !static/uploads/.gitkeep
 !static/results/.gitkeep
 
-# Model files (optional)
-# Uncomment if you don't want to upload trained models
-# models/*.keras
-
 # Logs
 *.log
 
